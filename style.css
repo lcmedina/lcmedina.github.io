@@ -1,0 +1,47 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'Comfortaa', cursive; /* this should be the rest of the output you got from Google fonts */
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #f1d1d1;
+  text-shadow: 3px 3px 1px #7d5a5a;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #7d5a5a;
+}
+h2 {
+  font-size: 22px;
+  text-align: center;
+  color: #7d5a5a;
+  text-shadow: 1px 1px 1px #f1d1d1;
+}
+h3 {
+  font-size: 20px;
+  color: #7d5a5a;
+  text-shadow: 1px 1px 1px #f1d1d1;
+}
+h4 {
+  font-size: 18px;
+}
+html {
+  background-color: #f3e1e1;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #faf2f2;
+  padding: 0 20px 20px 20px;
+  border: 5px solid #7d5a5a;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
