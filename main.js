@@ -3,7 +3,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'circle-cropped.png') {
-      myImage.setAttribute('src','ireland_1_68.png');
+      myImage.setAttribute('src','Ireland_1_68.png');
     } else {
       myImage.setAttribute('src','circle-cropped.png');
     }
