@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/circle-cropped.png') {
-      myImage.setAttribute('src','images/ireland_1_68.png');
+    if(mySrc === 'circle-cropped.png') {
+      myImage.setAttribute('src','ireland_1_68.png');
     } else {
-      myImage.setAttribute('src','images/circle-cropped.png');
+      myImage.setAttribute('src','circle-cropped.png');
     }
 }
 let myButton = document.querySelector('button');
